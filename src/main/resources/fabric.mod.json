@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "quiltclientmod",
+    "version": "1.0.0",
+    "name": "QuiltClient Mod",
+    "description": "A comprehensive Fabric client-side mod for Minecraft 1.21.11 with 200+ features.",
+    "authors": ["penoxibharadwaj"],
+    "contact": {
+        "homepage": "https://github.com/penoxibharadwaj/quiltclientmod",
+        "sources": "https://github.com/penoxibharadwaj/quiltclientmod"
+    },
+    "license": "MIT",
+    "icon": "assets/quiltclientmod/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.penoxibharadwaj.quiltclientmod.QuiltClientMod"
+        ]
+    },
+    "mixins": [
+        "quiltclientmod.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.21.11",
+        "fabric-api": "*"
+    }
+}

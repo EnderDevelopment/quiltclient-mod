@@ -1,0 +1,10 @@
+{
+    "key.quiltclientmod.clickgui": "ClickGUI",
+    "key.quiltclientmod.musicplayer": "Music Player",
+    "key.quiltclientmod.modmenu": "Mod Menu",
+    "category.quiltclientmod.keybinds": "QuiltClient Keybinds",
+    "module.fullbright.name": "Fullbright",
+    "module.fullbright.description": "Makes the game brighter.",
+    "module.zoom.name": "Zoom",
+    "module.zoom.description": "Allows zooming in the game."
+}
